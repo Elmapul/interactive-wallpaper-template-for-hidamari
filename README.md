@@ -56,3 +56,9 @@ download godot 3.6 or latter
 https://godotengine.org/
 drag and drop the project.godot file to godot window to edit it, or click in import , navigate to the directory containing this file and select it.
 go to editor, manage export templates, click on download and install (you will need this to export the html files for hidamari)
+
+
+
+i hope the instructions are clear, just open an issue if you have any questions.
+if you liked this or any of my future projects, please consider an donation:
+https://elmapul.itch.io/hidamari-live-wallpaper-template
