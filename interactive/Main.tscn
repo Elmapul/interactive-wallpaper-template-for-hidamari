@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+
+[node name="Main" type="Node"]
+script = ExtResource( 1 )
+
+[node name="client" type="Button" parent="."]
+margin_left = 123.0
+margin_top = 26.0
+margin_right = 519.0
+margin_bottom = 99.0
+text = "Connect As A Client"
+
+[node name="server" type="Button" parent="."]
+margin_left = 126.0
+margin_top = 118.0
+margin_right = 522.0
+margin_bottom = 191.0
+text = "Connect As a Server"
+
+[connection signal="pressed" from="client" to="." method="_on_client_pressed"]
+[connection signal="pressed" from="server" to="." method="_on_server_pressed"]
