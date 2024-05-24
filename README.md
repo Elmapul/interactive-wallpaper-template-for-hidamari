@@ -21,7 +21,7 @@ press enter
 
 open hidamari, chose Web Page
 where it says webpage URL put the text below:
-http://192.168.0.10:9000/web/
+http://127.0.0.1:9000/web/
 press the right arrow.
 
 open the directory with the demo files, enter the X11 directory  and open:
