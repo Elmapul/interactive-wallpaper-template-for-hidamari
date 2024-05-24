@@ -1,5 +1,5 @@
 # interactive-wallpaper-template-for-hidamari
-an proof of concept that show how to make livewallpapers for linux with hidamari.
+an proof of concept that show how to make interactive livewallpapers for linux with hidamari.
 
 Tested on: Ubuntu 22.04 wayland and xorg.
 (default desktop enviroment)
