@@ -34,6 +34,12 @@ you need this server runing to be able to send commands to the wallpaper (keyboa
 currently controler axis (sticks , L2, R2, motion sensores) arent supported.
 read how it works for more information.
 
+another thing to consider: you might want to edit the project setings to put the resolution of your monitor as the resolution of the project, then go to project export, export the Hidamari option (html5) and linux server version.
+in case you update anything and hidamari refuse to load the new version of your wallpaper, you can rename the directory containing the webpage, from web to anything else, then , you should also replace the word web on "http://127.0.0.1:9000/web/" with the new name of the directory, this will force hidamari to treat it as an new page.
+sometimes the game might not load due to memory usage or something like that, in this case chose an random video as an wallpaper and try again to load the page.
+
+if you are thinking the code is writen in an ineficient way, yeah i know, i was more worried to test if it was going to work then writing the best possible solution, feel free to send any improvoments.
+
 **How to quit:**
 make sure the server.x86_64 is selected and press alt+f4, or close it as you do with any other program on the tray of your distribution.
 select the terminal window where you  are runing SimpleHTTPServer and press control+c to stop it, or close the window.
