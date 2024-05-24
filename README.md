@@ -72,3 +72,6 @@ go to editor, manage export templates, click on download and install (you will n
 i hope the instructions are clear, just open an issue if you have any questions.
 if you liked this or any of my future projects, please consider an donation:
 https://elmapul.itch.io/hidamari-live-wallpaper-template
+
+
+
